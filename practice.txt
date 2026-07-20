@@ -1,0 +1,27 @@
+// steps to find sub arrays sums into a single array
+
+1) create an answer array for all the sub arrays sums
+2) size of the ans arrays should be no of arrays (n(n+1)/2)
+3) find sub array sums individually
+4) then store every sub array sum into temp variable
+5) then reset the sub array sum to zero
+6) add the temp value into answer array
+
+public static void printSubarrays(int[] a, int n) {
+    int x = (n * (n+1))/2;
+    int result = new result[x];
+    int sum = 0,
+    int h=0;
+        for (int i = 0; i < n; i++) {
+            for (int j = i; j < n; j++) {
+                for (int k = i; k <= j; k++) {
+                   sum = sum + a[k];
+                }
+              temp = sum;
+              sum = 0;
+              h++;
+
+            }
+        }
+            System.out.println(sum);
+    }
