@@ -1,1 +1,2 @@
 hola it's git branching of copy1
+just edited on git directly
