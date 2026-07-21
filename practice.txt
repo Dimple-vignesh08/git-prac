@@ -1,4 +1,5 @@
 // steps to find sub arrays sums into a single array
+// this for git practice
 
 1) create an answer array for all the sub arrays sums
 2) size of the ans arrays should be no of arrays (n(n+1)/2)
